@@ -20,6 +20,7 @@ import FQ from "./FQ";
 import FindQuestion from "./FindQuestion";
 import ArticleForm from "./ArticleForm";
 import QuestionForm from "./QuestionForm";
+import Chatbox from "./Chatbox";
 function App() {
   const [isLoggedIn,setLoggedIn]=useState(false);
   return (
@@ -37,9 +38,11 @@ function App() {
               <Route path="/signup" element={<Signup />} />
               <Route path="/planpage" element={<Planpage />} /> 
               <Route path="/postpage" element={<PostPage />} /> 
+              
                   <Route path="/postpage/findquestion" element={<FindQuestion />} /> 
                   <Route path="/postpage/article" element={<ArticleForm />} /> 
                   <Route path="/postpage/questionform" element={<QuestionForm />} />
+                  <Route path= "/chatbox" element={<Chatbox/>}/>
             </Routes>
             <ToastContainer position="bottom-center" />
             </loginContext.Provider>
