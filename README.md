@@ -25,7 +25,8 @@ Image:
 Click on the "chat" to access the chatbox
 
 Image:
-![image](https://github.com/Chelseasingla1/copilotproject/assets/129886894/b9f98e54-b830-474f-8a79-f2afdfcca575)
+![image](https://github.com/Chelseasingla1/copilotproject/assets/129886894/29508411-2444-4152-b320-25b0f023d273)
+
 
 ## How CopilotKit Can Help in Our Project
 
