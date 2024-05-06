@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.chatbox {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbox h2 {
+  margin-top: 0;
+}
+
+.chatbox ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.chatbox li {
+  margin-bottom: 5px;
+}
+
+.chatbox input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  flex-grow: 1;
+}
+
+.chatbox button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.chatbox button:hover {
+  background-color: #45a049;
+}
