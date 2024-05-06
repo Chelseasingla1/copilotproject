@@ -1,0 +1,96 @@
+.articleHeader h2{
+    /* background-color: aqua; */
+    margin: 5px;
+}
+
+.title{
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.title label{
+    margin: 5px;
+}
+
+.title input{
+    width: 100%;
+}
+
+.Abstract label{
+    display: block;
+    margin: 5px;
+}
+.Abstract input{
+    height: 50px;
+    width: 70%;
+    margin: 5px;
+}
+
+.Article label{
+    margin: 5px;
+    display:block;
+}
+
+.Article textarea{
+    /* margin: 10px; */
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.articleHeader h2{ 
+    background-color: aliceblue;
+}
+
+.Article input{
+    width: 70.3%;
+    height: 150px;
+    margin: 5px;
+}
+
+.Tag label{
+    display: block;
+    margin: 5px;
+}
+
+.Tag input{
+    height: 15px;
+    width: 100%;
+    margin: 5px;
+}
+
+.Button{
+    display: block;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.Button :hover{
+   background-color: brown;
+}
+
+.img h2{
+    background-color: aliceblue;
+    margin:5px;
+}
+.article-form{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+.article{
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

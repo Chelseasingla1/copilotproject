@@ -1,0 +1,114 @@
+
+/* Style for the entire QuestionForm container */
+.question-form {
+    background-color: #f0f0f0;
+    border: 1px solid hwb(0 49% 50%);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width:"90%";
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  .top2{
+    margin-top: 30px;
+  }
+  .width2{
+    width:700px;
+  }
+  /* Style for the title input */
+  .title {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the description input */
+  .description {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the tags input */
+  .tags {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the Post button */
+  .post-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .post-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the image container */
+  .image-container {
+    text-align: center;
+  }
+  
+  /* Style for the image input */
+  /*input[type="file"] {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #bbd7f6;
+  }*/
+  .input-code{
+    width:"70%";
+    height:100px;
+  }
+  /* Style for the image upload button */
+  .image-upload-button {
+    background-color: #44df10;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .image-upload-button:hover {
+    background-color: #0b1f34;
+  }
+  
+  .butt{
+    margin-top:20px;
+  }
+  input2 {
+    
+    
+    
+    
+    border: 0; /* or these */
+    padding: 0;
+  
+    width: 75%;
+    
+    text-align: center;
+  }
+  .wrapper2 {
+    height: 30vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    outline: auto;
+    outline-color: red;
+  }

@@ -1,0 +1,29 @@
+/* Image.css */
+
+/* Global Styles */
+.image-container {
+    text-align: center;
+    /* margin: 20px; */
+  }
+  
+  /* File Input Styles */
+  input[type="file"] {
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #bbd7f6;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #44df10;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 2px 0;
+    height: 25px;
+  }
+  
+  button:hover {
+    background-color: #0b1f34;
+  }

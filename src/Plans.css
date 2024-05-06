@@ -1,0 +1,136 @@
+/* Plans.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light Gray background */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #00eeff; /* Blue Navbar */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+  }
+  
+  /* Recharge Plans Styles */
+  .recharge-plans {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .recharge-plans-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Dark Gray */
+  }
+  
+  .recharge-plan-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .recharge-plan-card {
+    background-color: #fff; /* White background */
+    border: 1px solid #e0e0e0; /* Light Gray border */
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 450px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333; /* Dark Gray text */
+  }
+  
+  .recharge-plan-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .recharge-plan-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #439cb2; /* Dark Gray text */
+    margin-bottom: 15px;
+  }
+  
+  .recharge-plan-price {
+    font-size: 28px;
+    color: #0e0a07; /* Orange */
+    margin-top: 10px;
+  }
+  
+  .recharge-plan-details {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #666;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .recharge-plan-cta {
+    margin-top: 30px;
+  }
+  
+  .button {
+    font-size: 24px;
+    padding: 20px 30px;
+    padding-bottom: 50px;
+    background-color: #268c99; /* Blue button background */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #64c2c7; /* Slightly darker blue on hover */
+  }
+  
+  /* Colorful classes for plans */
+  .plan-basic {
+    background-color: #adaaad; /* White background */
+  }
+  
+  .plan-standard {
+    background-color: #aaa6a6; /* White background */
+  }
+  
+  .plan-premium {
+    background-color: #b1adad; /* White background */
+  }
+  
+  .plan-details {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #9eb0dc; /* White background */
+    border: 1px solid #060505; /* Light Gray border */
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .plan-details p {
+    margin: 0;
+    color: #fdfdfd;
+  }
+  
+  .recharge-status {
+    font-size: 24px;
+    margin: 20px;
+    color: #e4eaf0; /* Blue text */
+  }

@@ -1,0 +1,48 @@
+.footer1-container {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: rgb(10, 127, 133);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.line-1 {
+  width: 100%;
+  height: 215px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-line-1 {
+  width: 100%;
+  height: 211px;
+  align-items: center;
+}
+
+.line-2 {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-line-2 {
+  width: 50%;
+  height: 50px;
+  border: 4px solid rgba(215, 210, 215, 0.938);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col.item.social {
+  display: flex;
+}
+.fontlogo
+{
+  padding:10px;
+}

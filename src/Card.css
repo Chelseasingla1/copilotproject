@@ -1,0 +1,53 @@
+.upper {
+  text-align: center;
+}
+
+.row {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+
+  border: 4px solid rgba(186, 186, 186, 0.938);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* max-width : 350px; */
+}
+
+.column {
+  flex: 33.33%;
+  max-width : 350px;
+  padding-right: 70px;
+  padding-left: 50px;
+  
+}
+
+.main-image {
+  width: 1425px;
+  height: 650px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  border: 6px solid rgba(9, 7, 9, 0.938);
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.starline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.extraname {
+  padding: 5px
+}
+.art-name
+{
+  text-transform: capitalize;
+ 
+}

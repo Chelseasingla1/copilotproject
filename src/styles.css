@@ -1,0 +1,56 @@
+.loginform {
+    
+    
+    
+    min-height: 70vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    
+  }
+  .wrapper{
+    background-color:aliceblue;
+    color:midnightblue;
+    border: 1px solid darkslategrey;
+    position: relative;
+  }
+  .ptext{
+    
+    
+    text-align: center;
+    font-size: 27px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   font-weight: bold;
+   color:midnightblue
+  }
+  .bottom1{
+    margin-bottom: 3vh;
+
+  }
+  .bottom2{
+    margin-bottom: 1vh;
+
+  }
+  .vertical-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 90vh;
+    
+    
+  }
+  .signin-up{
+    margin-top:40% ;
+    position:absolute;
+  }
+  .text-navlink{
+    color:brown;
+  }
+  .bar{
+
+  }
