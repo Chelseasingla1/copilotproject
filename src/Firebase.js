@@ -9,13 +9,13 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from 'firebase/storage';
 import {getFirestore} from "@firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyBqd-TYpTD2KIWC66gJDsDMEB1pDk1Vn4E",
+  apiKey: "",
   authDomain: "taskdeploy9.firebaseapp.com",
   databaseURL: "https://taskdeploy9-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "taskdeploy9",
   storageBucket: "taskdeploy9.appspot.com",
   messagingSenderId: "634807762681",
-  appId: "1:634807762681:web:8ae15407455f1639f6ec28",
+  appId: "",
   measurementId: "G-QHYV9JCV2N"
 };
 
