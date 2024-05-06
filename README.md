@@ -20,6 +20,11 @@ To integrate CopilotKit into our React application, follow these steps:
 3. **Access Copilot Services in Your Application**: With the API key added, we can now access Copilot services in our application. We can make HTTP requests to the Copilot server to fetch responses from copilots and integrate them into our app's functionality.
 
 Image:
+![image](https://github.com/Chelseasingla1/copilotproject/assets/129886894/557c1628-dc6d-4822-a61d-a0969437ccc7)
+
+Click on the "chat" to access the chatbox
+
+Image:
 ![image](https://github.com/Chelseasingla1/copilotproject/assets/129886894/b9f98e54-b830-474f-8a79-f2afdfcca575)
 
 ## How CopilotKit Can Help in Our Project
