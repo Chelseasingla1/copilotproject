@@ -1,6 +1,4 @@
-# copilotproject
-
-# CopilotKit Integration Guide
+# CoPilotKit Project
 
 ## Introduction
 
