@@ -21,6 +21,9 @@ function Header(props) {
 const planhdlr=()=>{
   navigate("/planpage")
 }
+const chatboxhdlr=()=>{
+  navigate("/chatbox")
+}
   
   const registerHdlr = () => {};
   return (
@@ -35,6 +38,12 @@ const planhdlr=()=>{
       <div>
       {isLoggedIn &&<span className="post" onClick={planhdlr}>Plan</span>}
       {isLoggedIn &&<span className="post" onClick={posthdlr}>Post</span>}
+      {isLoggedIn &&<span className="post" onClick={chatboxhdlr}>Chat</span>}
+      {!isLoggedIn && (
+        <span className="login" onClick={logginHdlr}>
+          Login
+        </span>
+      )}
       {isLoggedIn && (
         <span className="login" onClick={logoutHdlr}>
           Logout
