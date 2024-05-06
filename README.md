@@ -2,8 +2,7 @@
 
 ## Introduction
 
-Welcome to the integration guide for CopilotKit in our existing React project! CopilotKit offers an open-source AI copilot platform designed to provide context-aware assistance, enhance user interaction, and streamline development processes. In this guide, we'll explain how to add the Copilot API key to your project and explore how CopilotKit can benefit our existing application.
-
+Welcome to the integration guide for CopilotKit in our existing React project of Dev-Deakin! CopilotKit offers an open-source AI copilot platform designed to provide context-aware assistance, enhance user interaction, and streamline development processes. In this guide, we'll explain how to add the Copilot API key to your project and explore how CopilotKit can benefit our existing application, which allows users to post new questions, articles, and search for existing posts through a Copilot chat interface
 ## Getting Started with CopilotKit
 
 To integrate CopilotKit into our React application, follow these steps:
@@ -29,6 +28,8 @@ Integrating CopilotKit into our existing React project offers several advantages
 - **AI-Enhanced Text Fields**: CopilotKit enables us to create AI-enhanced text fields offering context-sensitive autocomplete and insertions. This feature can enhance user experience by predicting user input, suggesting relevant options, and reducing manual effort in data entry tasks.
 
 - **Seamless Interaction**: CopilotKit facilitates the integration of in-app AI agents that interact seamlessly with both our application and its users. These agents can offer personalized recommendations, answer user queries, and provide real-time assistance, thereby improving user engagement and satisfaction.
+  
+- **Efficient Search Functionality**:CopilotKit enables advanced search functionality within the chat interface, allowing users to search for specific articles or questions submitted by themselves or others. The chatbot can process search queries, retrieve relevant content from the database, and present the results in a user-friendly manner. 
 
 By integrating CopilotKit into our existing React application, we can enhance user experience, streamline development processes, and introduce innovative features that elevate the functionality of our project.
 
