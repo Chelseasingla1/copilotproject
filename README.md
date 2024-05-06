@@ -24,7 +24,8 @@ Image:
 
 Click on the "chat" to access the chatbox
 
-Image:
+Chatbox Image:
+
 ![image](https://github.com/Chelseasingla1/copilotproject/assets/129886894/29508411-2444-4152-b320-25b0f023d273)
 
 
