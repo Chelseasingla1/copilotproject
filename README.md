@@ -63,7 +63,7 @@ By integrating CopilotKit into our existing React application, we can enhance us
    ```
 2. Navigate into the project directory:
    ```bash
-   cd copilotprojecy
+   cd copilotbackend
    ```
 3. Install dependencies using npm:
    ```bash
@@ -77,7 +77,7 @@ Install dependencies:
 Add Copilot Api to project:
 ```bash
     const copilotKit = new CopilotBackend({});
-    const openaiModel = process.env["OPENAI_MODEL"];
+    const openaiModel = process.env["REACT_APP_COPILOT_API_KEY"];
     return copilotKit.response(req, new OpenAIAdapter({ model: openaiModel }));
 
 ```
