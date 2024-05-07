@@ -69,7 +69,18 @@ By integrating CopilotKit into our existing React application, we can enhance us
    ```bash
    npm install
    ```
+## Adding CoPilot in project
+Install dependencies:
+```bash
+    npm install @copilotkit/react-ui @copilotkit/react-textarea @copilotkit/react-core @copilotkit/backend
+```
+Add Copilot Api to project:
+```bash
+    const copilotKit = new CopilotBackend({});
+    const openaiModel = process.env["OPENAI_MODEL"];
+    return copilotKit.response(req, new OpenAIAdapter({ model: openaiModel }));
 
+```
 ## Usage
 1. After installing the dependencies, you can run the development server using:
    ```bash
