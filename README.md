@@ -39,7 +39,11 @@ Integrating CopilotKit into our existing React project offers several advantages
 
 - **Seamless Interaction**: CopilotKit facilitates the integration of in-app AI agents that interact seamlessly with both our application and its users. These agents can offer personalized recommendations, answer user queries, and provide real-time assistance, thereby improving user engagement and satisfaction.
   
-- **Efficient Search Functionality**:CopilotKit enables advanced search functionality within the chat interface, allowing users to search for specific articles or questions submitted by themselves or others. The chatbot can process search queries, retrieve relevant content from the database, and present the results in a user-friendly manner. 
+- **Efficient Search Functionality**:CopilotKit enables advanced search functionality within the chat interface, allowing users to search for specific articles or questions submitted by themselves or others. The chatbot can process search queries, retrieve relevant content from the database, and present the results in a user-friendly manner.
+
+**Video Demonstration how this chatbox will actually help**
+[![Video Thumbnail](![image](https://github.com/Chelseasingla1/copilotproject/assets/129886894/ed8f356c-d51c-4990-bd4e-bae16ac46203)
+)](https://youtu.be/9cNMypF5XM8)
 
 By integrating CopilotKit into our existing React application, we can enhance user experience, streamline development processes, and introduce innovative features that elevate the functionality of our project.
 
