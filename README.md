@@ -45,5 +45,8 @@ Integrating CopilotKit into our existing React project offers several advantages
 [![**Video Demonstration how this chatbox will actually help**](![image](https://github.com/Chelseasingla1/copilotproject/assets/129886894/ed8f356c-d51c-4990-bd4e-bae16ac46203)
 )](https://youtu.be/9cNMypF5XM8)
 
+[![**Video Demonstration 2 how this chatbox actually works**]()
+)](https://youtu.be/RZDywu9OKP4)
+
 By integrating CopilotKit into our existing React application, we can enhance user experience, streamline development processes, and introduce innovative features that elevate the functionality of our project.
 
